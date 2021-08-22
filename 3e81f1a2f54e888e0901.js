@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import Unsplash, { toJson } from 'unsplash-js';
 import App from './containers/app';
 import reducer from './reducers/index';
-import handelRawPhotoInfo from './functions/functions';
+import { handelRawPhotoInfo } from './functions/functions';
 var initialState = {},
     photoArr = [];
 var unsplash = new Unsplash({
