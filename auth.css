@@ -830,11 +830,6 @@ ul {
   transition: all 0.1s ease-in;
 }
 
-.like-btn:hover .like-btn__svg--liked {
-  fill: rgba(214, 172, 172, 0.5);
-  transition: all 0.1s ease-in;
-}
-
 .like-btn:active {
   background-color: #fff;
 }
