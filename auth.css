@@ -817,7 +817,7 @@ ul {
 }
 
 .like-btn__svg--liked {
-  fill: rgba(255, 0, 0, 0.5);
+  fill: rgba(214, 172, 172, 0.5);
 }
 
 .like-btn:hover {
@@ -827,6 +827,11 @@ ul {
 
 .like-btn:hover .like-btn__svg {
   fill: #fff;
+  transition: all 0.1s ease-in;
+}
+
+.like-btn__svg--liked:hover .like-btn__svg {
+  fill: rgba(255, 0, 0, 0.5);
   transition: all 0.1s ease-in;
 }
 
