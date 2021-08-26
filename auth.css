@@ -737,6 +737,7 @@ ul {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.15);
+  pointer-events: none;
   transition: all 0.2s ease-in;
 }
 
