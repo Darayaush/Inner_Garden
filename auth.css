@@ -659,6 +659,8 @@ ul {
 }
 
 .author-data__author {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   font-size: 14px;
 }
 
