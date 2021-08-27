@@ -674,14 +674,16 @@ ul {
   font-size: 10px;
 }
 
+.author-data__time {
+  margin-right: 15px;
+}
+
 .author-data__btn {
-  margin-left: 15px;
+  margin-right: 5px;
   width: 10px;
   height: 10px;
   border: none;
   background-color: transparent;
-  -webkit-transform: translateY(1px);
-          transform: translateY(1px);
   cursor: pointer;
 }
 
@@ -693,6 +695,8 @@ ul {
   max-width: 9px;
   max-height: 9px;
   fill: #cfcfcf;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 .hero__slogan {
