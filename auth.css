@@ -754,6 +754,16 @@ ul {
   margin-bottom: 30px;
 }
 
+.photo-load-error {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
 .photo-card {
   position: relative;
   font-size: 0;
