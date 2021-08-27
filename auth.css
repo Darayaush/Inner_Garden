@@ -606,6 +606,10 @@ ul {
       align-items: center;
 }
 
+.author-data__pic {
+  position: absolute;
+}
+
 .author-img-container {
   display: -ms-flexbox;
   display: flex;
