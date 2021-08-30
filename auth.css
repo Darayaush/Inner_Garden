@@ -853,8 +853,9 @@ ul {
 }
 
 .photo-card-author {
-  font-size: 23px;
+  max-width: 250px;
   line-height: 1em;
+  font-size: 23px;
   font-family: "MonteCarlo";
   font-weight: 400;
   letter-spacing: 3px;
@@ -1136,6 +1137,7 @@ ul {
   }
 
   .photo-card-author {
+    max-width: initial;
     font-size: 20px;
   }
 
