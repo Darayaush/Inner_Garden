@@ -357,23 +357,6 @@ template {
 /*!*****************************************************************************************************************************************!*\
   !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./css/index.css ***!
   \*****************************************************************************************************************************************/
-.hero-container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.hero-container__logo {
-  width: 250px;
-  margin-bottom: 20px;
-}
-
-/*!*****************************************************************************************************************************************!*\
-  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./css/style.css ***!
-  \*****************************************************************************************************************************************/
 @font-face {
   font-family: "MoneCarlo";
   src: local("MoneCarlo"),
@@ -443,17 +426,6 @@ ul {
   outline-offset: 2px;
 }
 
-.container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.border-bottom {
-  border-bottom: 1px solid rgb(134, 134, 134);
-}
-
 .main__btn {
   padding: 12px 25px;
   min-width: 120px;
@@ -477,6 +449,47 @@ ul {
 
 .main__btn:active {
   background-color: #fff;
+}
+
+.hero-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -80%);
+          transform: translate(-50%, -80%);
+  text-align: center;
+}
+
+.hero-container__logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.hero-container__logo:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.auth-canceled-message {
+  display: none;
+  letter-spacing: 1px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/*!*****************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./css/style.css ***!
+  \*****************************************************************************************************************************************/
+/* CUSTOM */
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgb(134, 134, 134);
 }
 
 .link-hover {
