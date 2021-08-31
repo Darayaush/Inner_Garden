@@ -113,14 +113,17 @@ ul {
   margin-bottom: 40px;
 }
 
-.auth-canceled-message {
+.auth-canceled {
   display: none;
+}
+
+.auth-canceled__message {
   letter-spacing: 1px;
   font-style: italic;
   margin-bottom: 20px;
 }
 
-.auth-canceled-btn {
+.auth-canceled__btn {
   display: block;
   width: 100px;
   margin: 0 auto;
