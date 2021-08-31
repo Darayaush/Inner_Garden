@@ -106,7 +106,7 @@ ul {
 
 .hero-container__logo {
   width: 200px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .hero-container__logo:not(:last-child) {
@@ -118,5 +118,11 @@ ul {
   letter-spacing: 1px;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+.auth-canceled-btn {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
 }
 
