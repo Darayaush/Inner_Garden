@@ -95,31 +95,35 @@ ul {
   background-color: #fff;
 }
 
-.hero-container {
+.screen-saver {
   position: absolute;
   left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -80%);
-          transform: translate(-50%, -80%);
-  text-align: center;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
-.hero-container__logo {
+.screen-saver__logo {
   width: 200px;
-  margin-bottom: 25px;
 }
 
-.hero-container__logo:not(:last-child) {
-  margin-bottom: 40px;
+.screen-saver:not(:last-child) {
+  margin-bottom: 25px;
 }
 
 .auth-canceled {
   display: none;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .auth-canceled__message {
   letter-spacing: 1px;
   font-style: italic;
+  text-align: center;
   margin-bottom: 20px;
 }
 
