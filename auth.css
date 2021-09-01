@@ -831,12 +831,6 @@ ul {
   margin-bottom: 70px;
 }
 
-.main-container__span {
-  -webkit-column-span: all;
-     -moz-column-span: all;
-          column-span: all;
-}
-
 .main-container__item {
   margin-bottom: 30px;
 }
