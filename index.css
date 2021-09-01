@@ -1,0 +1,135 @@
+/*!*****************************************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./css/index.css ***!
+  \*****************************************************************************************************************************************/
+@font-face {
+  font-family: "MoneCarlo";
+  src: local("MoneCarlo"),
+    url(static/MonteCarlo-Regular.woff2) format("woff2"),
+    url(static/MonteCarlo-Regular.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"),
+    url(static/roboto-v20-latin_cyrillic-regular.woff2) format("woff2"),
+    url(static/roboto-v20-latin_cyrillic-regular.woff) format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Bold"),
+    url(static/roboto-v20-latin_cyrillic-700.woff2) format("woff2"),
+    url(static/roboto-v20-latin_cyrillic-regular.woff) format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: rgb(238, 238, 238);
+}
+
+ul {
+  list-style: none;
+}
+
+:focus-visible {
+  outline: #000 solid 1px;
+  outline-offset: 2px;
+}
+
+.main__btn {
+  padding: 12px 25px;
+  min-width: 120px;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.btn:focus-visible,
+.main__btn:hover {
+  background-color: #000;
+  border-color: #000;
+  color: #fff;
+  transition: all 0.1s ease-in;
+}
+
+.main__btn:active {
+  background-color: #fff;
+}
+
+.screen-saver {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.screen-saver__logo {
+  width: 200px;
+}
+
+.screen-saver:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.auth-canceled {
+  display: none;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.auth-canceled__message {
+  letter-spacing: 1px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-canceled__btn {
+  display: block;
+  width: 100px;
+  margin: 0 auto;
+}
+
